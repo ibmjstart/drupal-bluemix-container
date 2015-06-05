@@ -1,0 +1,9 @@
+
+name = Bluemix Minimal Install
+description = Minimal install that uses the database credentials from VCAP_SERVICES.
+core = 7.x
+
+dependencies[] = block
+dependencies[] = dblog
+
+files[] = bluemixminimal.profile 
